@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define PI 3.1416
+int main()
+{
+    double radius_of_circle;
+    printf("Enter radius of circle:");
+    scanf("%lf", &radius_of_circle);
+    printf("\n\nThe area of circle is %lf units\n\n", PI * pow(radius_of_circle, 2));
+    printf("The circumference of circle is %lf units", 2 * PI * radius_of_circle);
+
+
+
+ return 0;
+}

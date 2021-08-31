@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    double first_number, second_number,sum;
+    printf("Enter 1st number:");
+    scanf("%lf", &first_number);
+    printf("Enter 2nd number:");
+    scanf("%lf", &second_number);
+    printf("Total sum of 2 values is:%lf", sum = first_number + second_number);
+
+
+ return 0;
+}
